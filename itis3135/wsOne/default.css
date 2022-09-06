@@ -1,18 +1,35 @@
 body {
   background-color:9EC5AB;
+
+  font-family: "Audiowide", sans-serif;
+
 }
 h1 {
   color: 104F55;
+
 }
 h2 {
   color: 104F55;
+
 }
 p {
   color: white;
 }
 title{
 color: 104F55;
+
 }
 main{
 color: 104F55;
+
+}
+nav{
+text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
