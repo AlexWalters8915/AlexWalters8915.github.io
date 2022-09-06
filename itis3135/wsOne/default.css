@@ -1,30 +1,33 @@
+
+/*https://coolors.co/4f7cac-c0e0de-162521-3c474b-9eefe5*/
 body {
-  background-color:9EC5AB;
+  background-color:C0E0DE;
 
   font-family: "Audiowide", sans-serif;
 
 }
 h1 {
-  color: 104F55;
+  color: 4F7CAC;
 
 }
 h2 {
-  color: 104F55;
+  color: 4F7CAC;
 
 }
 p {
-  color: white;
+  color: 4F7CAC;
 }
 title{
-color: 104F55;
+color: 4F7CAC;
 
 }
 main{
-color: 104F55;
+color: 4F7CAC;
 
 }
 nav{
 text-align: center;
+color: 4F7CAC
 }
 
 .center {
@@ -32,4 +35,16 @@ text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+<style>
+a:link {
+  color:9EEFE5 ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: 162521;
+  background-color: transparent;
+  text-decoration: none;
 }
