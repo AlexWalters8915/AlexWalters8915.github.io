@@ -1,0 +1,102 @@
+
+/*https://coolors.co/4f7cac-c0e0de-162521-3c474b-9eefe5*/
+body {
+  background-color:1C448E;
+
+  font-family: "Audiowide", sans-serif;
+
+}
+     h1 {
+  color: FFE381C;
+
+}
+h2 {
+  color: FFE381;
+
+}
+p {
+  color: FFE381;
+}
+title{
+color: FFE381;
+
+}
+h5 {
+  color: FFE381;
+  font-size: 30px;
+}
+main{
+color: FFE381;
+
+}
+nav{
+text-align: center;
+color: FFE381
+}
+footer{
+text-align: center;
+color: FFE381
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a:link {
+  color:9EEFE5 ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: 162521;
+  background-color: transparent;
+  text-decoration: none;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+a:link {
+  color:9EEFE5 ;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: 162521;
+  background-color: transparent;
+  text-decoration: none;
+}
+.table-striped tbody tr:nth-child(odd) td {
+    background-color: #81DAF5;
+}
+
+.table-striped tbody tr:nth-child(even) td {
+    background-color: #CEECF5;
+}
+
+.table-striped tbody tr.highlight td {
+    background-color: #F2F5A9;
+}
+tbody tr:nth-child(odd){
+  background-color: #4C8BF5;
+  color: #fff;
+}
+
+button, input, select, textarea {
+  
+  font-size: 75%;
+}
+
+.radio-item {
+  width: 15px;
+  height: 15px;
+  background-color: #ffa500; 
+  border: 2px solid rgb(255, 4, 4);
+}
