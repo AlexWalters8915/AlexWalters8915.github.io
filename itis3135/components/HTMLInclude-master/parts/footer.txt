@@ -1,0 +1,7 @@
+<body>
+  <div data-include="footer.html"></div>
+  Content
+  
+  
+  <script src="components/HTMLinclude-master/HTMLInclude.min.js"></script>
+</body>

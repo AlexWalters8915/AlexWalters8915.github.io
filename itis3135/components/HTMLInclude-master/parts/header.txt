@@ -1,0 +1,7 @@
+<body>
+  <div data-include="header.html"></div>
+  Content
+  
+  
+  <script src="components/HTMLinclude-master/HTMLInclude.min.js"></script>
+</body>
