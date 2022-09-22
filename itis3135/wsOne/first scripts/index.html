@@ -4,7 +4,7 @@
         <title>Alex Walters **Awespicious Wolf **itis3135</title>
         
     </head>
-    <body>
+    <body id="body">
         <header>
             <h1>Alex Walters **Awespicious Wolf **itis3135</h1>
             <div data-include="header.html"></div>
@@ -15,17 +15,29 @@
              </h3>
             </h3>
             <h2>
+                <p> Easy read text</p>
                 <form>
                     <label for="name">name:</label><br>
-                    <input type="text" name="message" id="name-input"><br>
+                    <input type="text" name="name" id="name-input"><br>
+                    <br>
+                    <label for="name">mood:</label><br>
+                    <input type="text" name="mood" id="mood-input"><br>
                   </form>
-                  <input type="submit" onclick="showInput();"><br/>
-  <label>Your input: </label>
-  <p><span id='display'></span></p>
+
+
+
+                  <input  type="submit" onclick="showInput();"><br/>
+                  <style>#text{display: none;}</style> <!--  calls function to unhide and collect values -->
+  <label id="text"> Hello thank you for visiting the good design company website <span id="displayy"></span> were glad you are feeling  <span id="displayyy"></span></label>
+  <p></p>
 
   
-  
+  <button onclick="window.print();">Print a copy of this page</button>
+  <button onclick=" email();">email list</button>
+  <button onclick="dark();">dark mode</button>
 
+  <button onclick="refresh();">Refresh the webpage and form</button>
+  <button onclick=";">swap the image</button>
 
 
 
@@ -44,6 +56,11 @@
         <script src="HTMLinclude.js"></script>
         <script src="date-time.js"></script>
         <script src="formprint.js"></script>
+        <script src="darkmode.js"></script>
+        <script src="emaillist.js"></script>
+        <script src="reload.js"></script>
+
+        
         
     </body>
 </html>
