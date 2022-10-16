@@ -7,20 +7,39 @@
         
     </head>
     <body>
-        <header>
-            <h1>Alex Walters| awespicious wolf | ITIS3135 </h1>
+        <header>  
             <div data-include="header.html"></div>
 
+            <h1>Alex Walters| awespicious wolf | ITIS3135 </h1>
+          
         </header>
         <main>
-            <h2>
-                <button onclick="getShape();">Polygon calculator</button>
-            </h2>
+            <h3>
+                <select id="names_sel">
+                    <option value="Kevin">Kevin</option>
+                    <option value="Luke">Luke</option>
+                    <option value="Kyle">Kyle</option>
+                </select>
 
-            <h3 id="replace">
-               
+                <input type="number" id="salary_sel" required=""><br>
+
+
+                <input type="button"onclick="addSalary();" id="add_salary" >add<br>
+                <input type="button"onclick="displayResults();" id="display_results" >results<br>
+                <input type="button"onclick="displaySalary();" id="display_salary" >salary<br>
             </h3>
+
+        <div id="results"></div>
+        <table id="results_table"></table>    
         </main>
+
+
+
+
+
+
+
+
         <footer>
             <div data-include="footer.html"></div>
     
@@ -28,5 +47,5 @@
         </footer>
     </body>
     <script src="HTMLinclude.js"></script>
-    <script src="polygon.js"></script>
+    <script src="array.js"></script>
 </html>
