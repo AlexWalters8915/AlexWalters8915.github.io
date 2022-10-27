@@ -1,0 +1,55 @@
+body {
+    background-color:#1C448E;
+    font-family: "Roboto";
+   /* font-family: "Audiowide", sans-serif; */
+  
+  }
+       h1 {
+    color:#FFE381;
+  
+  }
+  h2 {
+    color: #FFE381;
+  
+  }
+  p {
+    color: #FFE381;
+  }
+  title{
+  color: #FFE381;
+  
+  }
+  h5 {
+    color: #FFE381;
+    font-size: 30px;
+  }
+  main{
+  color: #FFE381;
+  
+  }
+  nav{
+  text-align: center;
+  color: #FFE381
+  }
+  footer{
+  text-align: center;
+  color: #FFE381
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  a:link {
+    color:9EEFE5 ;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: 162521;
+    background-color: transparent;
+    text-decoration: none;
+  }
